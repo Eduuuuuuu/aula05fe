@@ -19,7 +19,7 @@ const contatos = [
         nome: 'Ricardo',
         imagem: 'ricardo.jpg',
         qtd: '1',
-        mensagem: 'passo o whats da sua irmã',
+        mensagem: 'passa o whats da sua irmã',
         atendente: 'Eduardo',
         online: 'online'
     }
