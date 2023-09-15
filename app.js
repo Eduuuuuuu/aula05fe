@@ -6,8 +6,22 @@ const contatos = [
         imagem: 'batata.jpg',
         qtd: '1',
         mensagem: 'Eae bão?',
-        atendente: 'Jaime o gordo',
-        online: '1 hora atrás'
+        atendente: 'Jaime, o gordo',
+        online: '1 hora atrás',
+    },{
+        nome: 'Yasmim',
+        imagem: 'jef.jpg',
+        qtd: '2',
+        mensagem: 'vamo pra igreja',
+        atendente: 'Campos',
+        online: '2 minutos atrás'
+    },{
+        nome: 'Ricardo',
+        imagem: 'ricardo.jpg',
+        qtd: '1',
+        mensagem: 'passo o whats da sua irmã',
+        atendente: 'Eduardo',
+        online: 'online'
     }
 ]
 
@@ -49,7 +63,7 @@ function criarCards (contatos) {
 
     contato.replaceChildren(nome, qtd)
     info.replaceChildren(contato, mensagem)
-    card.replaceChildren(info, imagem, online, atendente)
+    card.replaceChildren(imagem, info, online, atendente)
     container.appendChild(card)
 }
 
